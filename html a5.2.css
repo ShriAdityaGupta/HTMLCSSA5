@@ -3,7 +3,7 @@
 height: 300px;
 width: 500%;
 display: block;
-background-image: url(roadhtml1.png);
+background-image: url(https://rawcdn.githack.com/ShriAdityaGupta/HTMLCSSA5/53e7f4dd5bfba8a0a1a904b371fd935ef2530895/roadhtml1.png);
 background-repeat: repeat-x;
 position: absolute;
 z-index: 1;
@@ -23,7 +23,7 @@ animation: road 5s infinite linear;
     height: 200px;
     width: 500%;
     display: block;
-background-image: url(cityhtml.jpg);
+background-image: url(https://rawcdn.githack.com/ShriAdityaGupta/HTMLCSSA5/4bdb72781b157730d5b096d815a9207a7ac129a2/cityhtml.jpg);
 background-repeat: repeat-x;
 position: absolute;
 z-index: 1;
