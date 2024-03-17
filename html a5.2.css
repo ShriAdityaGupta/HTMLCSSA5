@@ -48,7 +48,7 @@ animation: city 5s infinite linear;
 }
 .tyre{
     
-    left: 40%;
+    left: 30%;
     bottom: 243px;
     transform: translateX(-50%);
     position: absolute;
