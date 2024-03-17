@@ -1,0 +1,80 @@
+.main{
+    margin: 50px;
+    background-color: blue;
+    background-image: linear-gradient(to right, red , yellow, green);
+    display: grid; 
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-content: center;
+  
+}
+.nintydegree{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height:100px;
+    width:100px;
+    background-color: white;
+    background-image: radial-gradient(cyan, magenta, blue);
+    margin: 30px;
+    animation-name: nintydegree1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transform: skewX(30deg);
+
+
+}
+.rotatey{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height:100px;
+    width:100px;
+    background-color: blueviolet;
+    margin: 20px;
+    animation-name: rotatey1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    
+}
+
+.rotation{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height:100px;
+    width:100px;
+    background-color: violet;
+    margin: 20px;
+    animation-name: rotation1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    
+
+}
+.skewxx{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height:100px;
+    width:100px;
+    background-color: grey;
+    animation-name: skewxx1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    
+}
+
+
+@keyframes nintydegree1 {
+  from{transform:rotateZ(0deg); }
+    to{transform: rotateZ(90deg);    }
+}
+@keyframes rotatey1 {
+    from{transform: rotateY(0deg);}
+      to{transform: rotateY(45deg);}
+  }
+  @keyframes rotation1{
+    from{transform: rotate(0deg);}
+      to{transform: rotate(360deg);}
+  }
+  @keyframes skewxx1{
+    from{transform: skewX(-30deg);}
+      to{transform: skewX(50deg);}
+  }
